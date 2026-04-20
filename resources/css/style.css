@@ -4,7 +4,7 @@ body {
 }
 
 .header {
-    font-family: "Funnel Display", sans-serif;
+    font-family: "Funnel Display", "Arial", sans-serif;
     text-align: right;
     background: -webkit-linear-gradient(-45deg, #0054b4, #141E30);
     background: linear-gradient(-45deg, #0054b4, #141E30);
@@ -14,9 +14,14 @@ body {
     -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 50, 0.97);
     -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 50, 0.97);
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 50, 0.97);
+    letter-spacing: 0.2em;
 }
 
 .content {
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", "Arial", sans-serif;
     padding: 40px;
+    line-height: 1.6;
+    text-align: justify;
+    max-width: 1500px;
+    margin: 0 auto;
 }
