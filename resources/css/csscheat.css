@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    font-family: "Special Elite", "Courier New", monospace;
+    font-weight: 900;
+    text-align: center;
+    background-color: seagreen;
+    color: white;
+    height: 50px;
+    padding: 10px 20px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 50, 0.97);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 50, 0.97);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 50, 0.97);
+    letter-spacing: 0.3em;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.content {
+    position: relative;
+    font-family: "Roboto", Arial, sans-serif;
+    max-width: 1500px;
+    padding: 10px 40px;
+    line-height: 1.6;
+    margin: 20px auto;
+    top: 50px;
+}
+
+.example {
+    background-color: black;
+    color: white;
+    font-family: "Courier New", monospace;
+    font-weight: bolder;
+    -webkit-box-shadow: 2px 0px 5px 0px rgba(0, 0, 50, 0.97);
+    -moz-box-shadow: 2px 0px 5px 0px rgba(0, 0, 50, 0.97);
+    box-shadow: 2px 0px 5px 0px rgba(0, 0, 50, 0.97);
+}
+
+.rule {
+    font-family: 'Courier New', monospace;
+    background-color: lightyellow
+}
+
+.name {
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+th {
+    text-align: left;
+    background-color: lightgreen;  
+}
+
+td {
+    text-align: left;
+    vertical-align: top;
+    background-color: lightgrey;
+    padding: 15px;
+}
