@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Special+Elite&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="resources/css/style.css">
+    <title>Codecademy Project - Web Cheat Sheet</title>
+  </head>
+  <body>
+    <header>
+      <h1>Web Cheat Sheet</h1>
+    </header>
+    <main>
+      <h2>Handy CSS Rules that I might commonly use</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Rule</th>
+            <th>Name</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><div class="rule"><p>font-family</p></div></td>
+            <td><div class="name"><p>Font Family</p></div></td>
+            <td>
+              <div class="description">
+                <p>Allows you to specify the font for an element.  You can get additional fonts from <a href="https://fonts.google.com/">Google Fonts</a> that can be linked directly to HTML.</p>
+                <p><div class="example">font-family: "Roboto", Arial, sans-serif;</div></p>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td><div class="rule"><p>font-weight</p></div></td>
+            <td><div class="name"><p>Font Weight</p></div></td>
+            <td>
+              <div class="description">
+                <p>Allows you to specify the weight (boldness) of the font for an element.  This can be a numeric value (100-900) or a keyword (normal, bold).</p>
+                <p><div class="example">font-weight: bold;</div></p>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td><div class="rule"><p>font-size</p></div></td>
+            <td><div class="name"><p>Font Size</p></div></td>
+            <td>
+              <div class="description">
+                <p>Allows you to specify the size of the font for an element.  This can be a length (in pixels, ems, etc.) or a percentage.</p>
+                <p><div class="example">font-size: 16px;</div></p>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td><div class="rule"><p>text-align</p></div></td>
+            <td><div class="name"><p>Text Align</p></div></td>
+            <td>
+              <div class="description">
+                <p>Allows you to specify the horizontal alignment of text within an element.  Parameters include left, right, center, and justify.  Justify will stretch the text to fill the width of the container, creating a clean edge on both sides. </p>
+                <p><div class="example">text-align: justify;</div></p>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td><div class="rule"><p>text-decoration</p></div></td>
+            <td><div class="name"><p>Text Decoration</p></div></td>
+            <td>
+              <div class="description">
+                <p>Allows you to specify the decoration of text for an element.  This can be used to add an underline, overline, or line-through to text.  You can also specify the color and style of the decoration.</p>
+                <p><div class="example">text-decoration: underline;</div></p>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td><div class="rule"><p>line-height</p></div></td>
+            <td><div class="name"><p>Line Height</p></div></td>
+            <td>
+              <div class="description">
+                <p>Allows you to specify the height of a line of text.  This can be a unitless value (which is a multiplier), a length (in pixels, ems, etc.), or a percentage.</p>
+                <p><div class="example">line-height: 1.5;</div></p>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td><div class="rule"><p>letter-spacing</p></div></td>
+            <td><div class="name"><p>Letter Spacing</p></div></td>
+            <td>
+              <div class="description">
+                <p>Allows you to specify the spacing between letters in a text.  This can be a length (in pixels, ems, etc.) or a percentage.</p>
+                <p><div class="example">letter-spacing: 0.1em;</div></p>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td><div class="rule"><p>cursor</p></div></td>
+            <td><div class="name"><p>Cursor</p></div></td>
+            <td>
+              <div class="description">
+                <p>Allows you to specify the type of cursor that should be displayed when the mouse is over an element.</p>
+                <p><div class="example">cursor: pointer;</div></p>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td><div class="rule"><p>background</p></div></td>
+            <td><div class="name"><p>Background</p></div></td>
+            <td>
+              <div class="description">
+                <p>Allows you to specify the background color or image for an element.  You can use a solid color, a gradient, or an image as the background.  Gradients can be linear or radial and can be created using the linear-gradient or radial-gradient functions.  You can also specify the direction of the gradient and the colors to use.</p>
+                <p><div class="example">background: -webkit-linear-gradient(-45deg, #0054b4, #141E30);</div></p>
+                <p><div class="example">background: url('image.jpg') no-repeat center center;</div></p>
+                <p><div class="example">background: linear-gradient(-45deg, #0054b4, #141E30);</div></p>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td><div class="rule"><p>color</p></div></td>
+            <td><div class="name"><p>Color</p></div></td>
+            <td>
+              <div class="description">
+                <p>Allows you to specify the color of the text for an element.  This can be a named color, a hexadecimal value, or an RGB value.</p>
+                <p><div class="example">color: blue;</div></p>
+              </div>
+            </td>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td><div class="rule"><p>background-color</p></div></td>
+            <td><div class="name"><p>Background Color</p></div></td>
+            <td>
+              <div class="description">
+                <p>Allows you to specify the background color for an element.  This can be a named color, a hexadecimal value, or an RGB value.</p>
+                <p><div class="example">background-color: lightblue;</div></p>
+              </div>
+            </td>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td><div class="rule"><p>-webkit-box-shadow</p></div></td>
+            <td><div class="name"><p>Box Shadow</p></div></td>
+            <td>
+              <div class="description">
+                <p>Allows you to specify a shadow effect for an element.</p>
+                <p><div class="example">-webkit-box-shadow: 0px 4px 10px 0pxrgba(0, 0, 0, 0.5);</div></p>
+              </div>
+            </td>            
+          </tr>
+          <tr>
+            <td><div class="rule"><p>-moz-box-shadow</p></div></td>
+            <td><div class="name"><p>Box Shadow</p></div></td>
+            <td>
+              <div class="description">
+                <p>Allows you to specify a shadow effect for an element.  (For Mozilla Firefox)</p>
+                <p><div class="example">-moz-box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);</div></p>
+              </div>
+            </td>            
+          </tr>
+          <tr>
+            <td><div class="rule"><p>box-shadow</p></div></td>
+            <td><div class="name"><p>Box Shadow</p></div></td>
+            <td>
+              <div class="description">
+                  <p>Allows you to specify a shadow effect for an element.  (Standard)</p>
+                  <p><div class="example">box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);</div></p>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td><div class="rule"><p>max-width</p></div></td>
+            <td><div class="name"><p>Max Width</p></div></td>
+            <td>
+              <div class="description">
+                  <p>Allows you to specify the maximum width of an element.</p>
+                  <p><div class="example">max-width: 500px;</div></p>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td><div class="rule"><p>margin</p></div></td>
+            <td><div class="name"><p>Margin</p></div></td>
+            <td>
+              <div class="description">
+                  <p>Allows you to specify the space around an element.</p>
+                  <p><div class="example">margin: 10px;</div></p>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td><div class="rule"><p>padding</p></div></td>
+            <td><div class="name"><p>Padding</p></div></td>
+            <td>
+              <div class="description">
+                  <p>Allows you to specify the space inside an element.</p>
+                  <p><div class="example">padding: 10px;</div></p>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td><div class="rule"><p>border-radius</p></div></td>
+            <td><div class="name"><p>Border Radius</p></div></td>
+            <td>
+              <div class="description">
+                  <p>Allows you to specify the radius of the corners of an element.</p>
+                  <p><div class="example">border-radius: 10px;</div></p>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td><div class="rule"><p>opacity</p></div></td>
+            <td><div class="name"><p>Opacity</p></div></td>
+            <td>
+              <div class="description">
+                  <p>Allows you to specify the transparency of an element.  Values range from 0 (fully transparent) to 1 (fully opaque).</p>
+                  <p><div class="example">opacity: 0.5;</div></p>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td><div class="rule"><p>transition</p></div></td>
+            <td><div class="name"><p>Transition</p></div></td>
+            <td>
+              <div class="description">
+                  <p>Allows you to specify the duration and timing function of a transition effect.</p>
+                  <p><div class="example">transition: opacity 0.3s ease-in-out;</div></p>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <h2>Flexbox</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Property</th>
+            <th>Name</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><div class="rule"><p>flex-grow</p></div></td>
+            <td><div class="name"><p>Flex Grow</p></div></td>
+            <td>
+              <div class="description">
+                  <p>Allows you to specify how much an element should grow relative to its siblings when there is extra space available.</p>
+                  <p><div class="example">display: flex;<br />flex-grow: 1;</div></p>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td><div class="rule"><p>flex-shrink</p></div></td>
+            <td><div class="name"><p>Flex Shrink</p></div></td>
+            <td>
+              <div class="description">
+                  <p>Allows you to specify how much an element should shrink relative to its siblings when there is not enough space available.</p>
+                  <p><div class="example">display: flex;<br />flex-shrink: 1;</div></p>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td><div class="rule"><p>flex-basis</p></div></td>
+            <td><div class="name"><p>Flex Basis</p></div></td>
+            <td>
+              <div class="description">
+                  <p>Allows you to specify the initial size of an element before it starts to grow or shrink.</p>
+                  <p><div class="example">display: flex;<br />flex-basis: 200px;</div></p>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td><div class="rule"><p>justify-content</p></div></td>
+            <td><div class="name"><p>Justify Content</p></div></td>
+            <td>
+              <div class="description">
+                  <p>Specifies the alignment of flex items along the main axis.  Justify content can have the values of:
+                    <ul>
+                      <li>flex-start: aligns items to the start of the container</li>
+                      <li>flex-end: aligns items to the end of the container</li>
+                      <li>center: centers items in the container</li>
+                      <li>space-between: distributes items evenly with the first item at the start and the last item at the end of the container</li>
+                      <li>space-around: distributes items evenly with equal space around them</li>
+                      <li>space-evenly: distributes items evenly with equal space between them</li>
+                    </ul>
+                  </p>
+                  <p><div class="example">display: flex;<br />justify-content: center;</div></p>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <h2>Useful Semantic HTML5 Elements</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Element</th>
+            <th>Name</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><div class="rule"><p>&lt;header&gt;</p></div></td>
+            <td><div class="name"><p>Header</p></div></td>
+            <td><div class="description"><p>Defines a header for a document or section.  It typically contains introductory content or navigational links.</p></div></td>
+          </tr>
+          <tr>
+            <td><div class="rule"><p>&lt;main&gt;</p></div></td>
+            <td><div class="name"><p>Main</p></div></td>
+            <td><div class="description"><p>Defines the main content of a document.  It should contain content that is unique to the document and not repeated across other documents (like sidebars, navigation links, etc.).</p></div></td>
+          </tr>
+          <tr>
+            <td><div class="rule"><p>&lt;footer&gt;</p></div></td>
+            <td><div class="name"><p>Footer</p></div></td>
+            <td><div class="description"><p>Defines a footer for a document or section.  It typically contains information about the author, copyright information, links to related documents, etc.</p></div></td> 
+          </tr>
+          <tr>
+            <td><div class="rule"><p>&lt;nav&gt;</p></div></td>
+            <td><div class="name"><p>Nav</p></div></td>
+            <td><div class="description"><p>Defines a set of navigation links.</p></div></td>          
+          </tr>
+          </tbody>
+      </table>
+    </main>
+  </body>
+</html>
